@@ -1,0 +1,175 @@
+/*Sección General CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Body CSS*/
+
+body {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/*Barra de Navegación*/
+
+.nav-link {
+    font-size: 1rem;
+    font-style: normal;
+    color: #0f15a3;
+
+}
+
+.container-fluid {
+    background-color: #a6cc00;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-central{
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    padding: 5% 5% 1% 5%;
+
+}
+
+/*Sección Cotizador*/
+
+.cotizador {
+    background-color: #a6cc00;
+    color: #0f15a3;
+    padding: 10% 5% 1% 5%;
+    align-items: center;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    color: #de061a;
+    padding: 10% 15% 1% 15%;
+
+}
+
+.card-text{
+    padding: 1% 20% 1% 20%;
+
+}
+
+.col-md-6 {
+    width: 80rem;
+
+
+}
+
+
+
+.div-titulo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-titulo h1 {
+    font-weight: 300;
+}
+
+.contenedor {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor.servicios {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+/* ESTILOS FORMULARIO */
+
+.contenedor .div-formulario {
+    width: 30%;
+    height: 400px;
+    margin: 20px 20px;
+    background-color: #0f15a3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-formulario form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+/* ESTILOS LISTADO */
+.contenedor .div-listado {
+    width: 35%;
+    height: calc(80% - 60px);
+    margin: 15px 15px;
+    background-color: #de061a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor .div-listado h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-editar {
+    background-color: green;
+}
+
+.btn-eliminar {
+    background-color: red;
+}
