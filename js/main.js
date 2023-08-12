@@ -89,3 +89,16 @@ productoForm.addEventListener('submit', function (event) {
   mostrarProductos();
   mostrarServicios();
   
+// Función para editar un producto
+function editarProducto(index, nombre, marca, descripcion) {
+    productos[index] = { nombre, marca, descripcion };
+    localStorage.setItem('productos', JSON.stringify(productos));
+    mostrarProductos();
+  }
+  
+  // Función para editar un servicio
+  function editarServicio(index, nombre, marca, modelo, anio) {
+    servicios[index] = { nombre, marca, modelo, anio };
+    localStorage.setItem('servicios', JSON.stringify(servicios));
+    mostrarServicios();
+  }
