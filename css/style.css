@@ -91,11 +91,10 @@ body {
     justify-content: center;
 }
 
-.contenedor.servicios {
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    justify-content: center;
+.contenedor .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
 }
 
 /* ESTILOS FORMULARIO */
