@@ -1,3 +1,4 @@
+
 /// Obtener referencias a los elementos del formulario y las listas
 const productoForm = document.getElementById('producto-form');
 const servicioForm = document.getElementById('servicio-form');
