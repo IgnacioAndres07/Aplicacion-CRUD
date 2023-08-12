@@ -100,8 +100,8 @@ body {
 /* ESTILOS FORMULARIO */
 
 .contenedor .div-formulario {
-    width: 30%;
-    height: 400px;
+    width: 40%;
+    height: 500px;
     margin: 20px 20px;
     background-color: #0f15a3;
     display: flex;
@@ -109,7 +109,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.3);
 }
 
 .contenedor .div-formulario h2 {
@@ -135,11 +135,11 @@ body {
     margin: 10px 10px;
 }
 
-/* ESTILOS LISTADO */
+/* Estilos Listados */
 .contenedor .div-listado {
     width: 35%;
     height: calc(80% - 60px);
-    margin: 15px 15px;
+    margin: 20px 20px;
     background-color: #de061a;
     display: flex;
     flex-direction: column;
@@ -155,20 +155,14 @@ body {
     color: whitesmoke;
 }
 
+/*Boton*/
 
-
-.btn {
+button {
     padding: 5px 10px;
     border: none;
     margin: 0 5px;
     color: white;
+    background-color: #a6cc00;
     border-radius: 50px;
 }
 
-.btn-editar {
-    background-color: green;
-}
-
-.btn-eliminar {
-    background-color: red;
-}

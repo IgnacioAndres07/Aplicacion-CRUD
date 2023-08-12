@@ -63,3 +63,29 @@ function eliminarServicio(index) {
   localStorage.setItem('servicios', JSON.stringify(servicios));
   mostrarServicios();
 }
+
+
+// Envío de formularios submit
+productoForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const nombre = document.getElementById('producto-nombre').value;
+    const marca = document.getElementById('producto-marca').value;
+    const descripcion = document.getElementById('producto-descripcion').value;
+    agregarProducto(nombre, marca, descripcion);
+    productoForm.reset();
+  });
+  
+  servicioForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const nombre = document.getElementById('servicio-nombre').value;
+    const marca = document.getElementById('servicio-marca').value;
+    const modelo = document.getElementById('servicio-modelo').value;
+    const anio = document.getElementById('servicio-anio').value;
+    agregarServicio(nombre, marca, modelo, anio);
+    servicioForm.reset();
+  });
+  
+  // Mostrar productos y servicios al cargar la página
+  mostrarProductos();
+  mostrarServicios();
+  
