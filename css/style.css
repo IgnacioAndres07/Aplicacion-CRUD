@@ -146,3 +146,267 @@ button {
     border-radius: 50px;
 }
 
+/*Footer*/
+
+.container__footer {
+    background-color: #a6cc00;
+    padding: 2% 5% 0% 12%;
+}
+
+
+/*Responsive Medias Queries*/
+
+
+@media screen and (max-width:768px) {
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+    .div-listado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5%;
+        padding-bottom: 100%;
+        margin-bottom: 50%;
+
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor {
+        margin: 18px 0px;
+    }
+
+
+
+
+    .col-md-6 {
+        display: flex;
+        flex-wrap: nowrap;
+
+
+
+    }
+
+    .col-md-6r {
+        padding-top: 10%;
+        margin: 0 10px;
+        height: 400px;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .col-md-6 {
+        padding-top: 15%;
+        margin: 0 5px;
+        width: 600px;
+        height: 350px;
+
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:500px) {
+
+    .col-md-6 {
+        padding-top: 16%;
+        margin: 0 5px;
+        width: 500px;
+        height: 320px;
+
+    }
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+}
+
+@media screen and (max-width:420px) {
+
+    .col-md-6 {
+        padding-top: 21%;
+        margin: 0 10px;
+        width: 400px;
+        height: 300px;
+
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+    .div-formulario .div-listado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+}
+
+@media screen and (max-width:390px) {
+
+    .col-md-6 {
+        padding-top: 23%;
+        padding-bottom: 20%;
+        margin: 0 8px;
+        width: 400px;
+        height: 290px;
+
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 180%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+    .div-formulario .div-listado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:375px) {
+
+    .col-md-6 {
+        padding-top: 35%;
+        padding-bottom: 20%;
+        margin: 0 8px;
+        width: 400px;
+        height: 325px;
+
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+    .div-formulario .div-listado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+}
+
+@media screen and (max-width:350px) {
+
+    .col-md-6 {
+        padding-top: 40%;
+        padding-bottom: 20%;
+        margin: 0 8px;
+        width: 400px;
+        height: 290px;
+
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100%;
+        padding-bottom: 100%;
+
+    }
+
+    .div-formulario .div-listado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+}
+
+
+@media screen and (max-width:280px) {
+
+    .col-md-6 {
+        padding-top: 30%;
+        padding-bottom: 20%;
+        margin: 0 8px;
+        width: 400px;
+        height: 290px;
+
+    }
+
+    .div-formulario .div-listado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80%;
+        padding-bottom: 50%;
+        margin: auto;
+
+    }
+
+}

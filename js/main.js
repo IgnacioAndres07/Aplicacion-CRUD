@@ -94,14 +94,12 @@ mostrarServicios();
 function editarProducto(index, nombre, marca, descripcion) {
     productos[index] = { nombre, marca, descripcion };
     localStorage.setItem('productos', JSON.stringify(productos));
-    mostrarProductos();
 }
 
 // Función para editar un servicio
 function editarServicio(index, nombre, marca, modelo, anio) {
     servicios[index] = { nombre, marca, modelo, anio };
     localStorage.setItem('servicios', JSON.stringify(servicios));
-    mostrarServicios();
 }
 
 // Función para cargar los datos del producto/servicio a editar en el formulario
@@ -118,7 +116,7 @@ function cargarDatosParaEdicion(tipo, index) {
             const descripcion = document.getElementById('producto-descripcion').value;
             editarProducto(index, nombre, marca, descripcion);
             productoForm.reset();
-            document.getElementById('producto-form').onsubmit = null;
+          
         };
     } else if (tipo === 'servicio') {
         const servicio = servicios[index];
@@ -139,9 +137,7 @@ function cargarDatosParaEdicion(tipo, index) {
     }
 }
 
-
 // Función para mostrar productos y servicios al editar y eliminar 
-
 
 function mostrarProductos() {
     productosList.innerHTML = '';
@@ -169,3 +165,4 @@ function mostrarServicios() {
       `;
     });
 }
+
